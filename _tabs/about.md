@@ -8,10 +8,6 @@ order: 4
 
 # 정연재
 
-### Tel
-
-010-4631-5172
-
 ### Email
 
 duswo5170@gmail.com
