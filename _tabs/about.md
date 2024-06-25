@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![profile](https://prod-files-secure.s3.us-west-2.amazonaws.com/60c16d74-4bd9-4d77-aa1c-a8b685676461/e2026bfd-184f-426b-a5ac-8789a7e31206/651b12fa-ccbe-42c6-8a58-37e4d3213fbe.png)
-
 # 정연재
 
 ### Email
