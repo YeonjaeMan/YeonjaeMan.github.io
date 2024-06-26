@@ -98,8 +98,7 @@ build.gradle 파일에 문제가 있나 확인을 해보았지만, 아무런 문
 
 열심히 삽질을 하던 도중..!
 
-~~[이와 같은 글을 보게 되었습니다.](https://github.com/DiUS/java-faker/issues/733, "issue 733")~~
-> 24.06.25 깃허브 이슈가 닫힌 것을 확인했습니다. 밑의 이미지를 참고해주세요!
+[이와 같은 글을 보게 되었습니다.](https://github.com/DiUS/java-faker/issues/733)
 
 ![Issue #733](/assets/img/DummyDataGenerator/DummyDataFaker2.png)
 
@@ -108,7 +107,7 @@ javafaker는 스프링 부트 2.7.0 이상은 지원이 되지 않는다고 합�
 저는 스프링 부트 3.2.5를 사용하고 있었고, Java 17을 사용중이기에! 결국, 저는 이미지에 보이는 datafaker를 찾아보았습니다.
 
 # datafaker
-[datafaker 깃허브 주소입니다.](https://github.com/datafaker-net/datafaker, "datafaker github")
+[datafaker 깃허브 주소입니다.](https://github.com/datafaker-net/datafaker)
 
 
 ![github:datafaker](/assets/img/DummyDataGenerator/DummyDataFaker3.png)
