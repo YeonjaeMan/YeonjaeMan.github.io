@@ -32,4 +32,4 @@ class Solution {
 ```
 
 Level 1의 문제인만큼 어렵지 않게 풀었다.
-하지만, Arrays.sort() 메소드에 대해 제대로 알고 쓰지 않아서 정리해보았다.
+하지만, [Arrays.sort()](https://yeonjaeman.github.io/posts/sort/) 메소드에 대해 제대로 알고 쓰지 않아서 정리해보았다.
