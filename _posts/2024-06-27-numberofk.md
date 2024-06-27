@@ -1,9 +1,9 @@
 ---
 title: "K번째수"
 author: yeon
-date: 2024-06-27 22:22:00 +0800
+date: 2024-06-27 21:22:00 +0800
 categories: [DEV, Algorithm]
-tags: [sort]
+tags: [CodingTest]
 ---
 
 프로그래머스 알고리즘 고득점 Kit - 정렬에 해당하는 문제이다.
@@ -32,4 +32,5 @@ class Solution {
 ```
 
 Level 1의 문제인만큼 어렵지 않게 풀었다.
+
 하지만, [Arrays.sort()](https://yeonjaeman.github.io/posts/sort/) 메소드에 대해 제대로 알고 쓰지 않아서 정리해보았다.

@@ -3,7 +3,7 @@ title: "[알고리즘]투 포인터"
 author: yeon
 date: 2024-02-04 00:34:00 +0800
 categories: [DEV, Algorithm]
-tags: [two pointer]
+tags: [CodingTest]
 ---
 
 ### 문제

@@ -3,7 +3,7 @@ title: "[알고리즘]2차원 배열의 구간 합 구하기"
 author: yeon
 date: 2024-02-03 00:34:00 +0800
 categories: [DEV, Algorithm]
-tags: [interval sum]
+tags: [CodingTest]
 ---
 
 ### 문제
