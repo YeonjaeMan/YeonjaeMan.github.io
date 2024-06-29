@@ -2,7 +2,7 @@
 title: "GitHub Pages(Jekyll Blog) 리팩토링"
 author: yeon
 date: 2024-06-28 22:16:00 +0900
-categories: [ECT, Jekyll]
+categories: [ETC, Jekyll]
 tags: [Refactoring]
 ---
 
