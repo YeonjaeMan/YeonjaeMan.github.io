@@ -26,7 +26,7 @@ Example 1의 cost = [10, 15, 20]에서 15와 20의 입장에서 최종 계단에
 Example 2도 마찬가지로 최종 계단부터 최소 비용을 계산해보면 6이 나온다.
 
 ## 코드 구현
-`java
+```java
 public class Test {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
@@ -43,7 +43,7 @@ public class Test {
         return Math.min(case1, case2);
     }
 }
-`
+```
 
 ## 시간 복잡도 및 공간 복잡도
 계단의 개수를 n개라고 했을 때 위의 코드의 시간 복잡도는 배열의 마지막부터 0번째까지 반복하므로 O(n)이고, 공간복잡도는 다른 배열 선언 없이 current라는 변수를 이용해서 최소 비용을 계산하므로 O(1)이다.
