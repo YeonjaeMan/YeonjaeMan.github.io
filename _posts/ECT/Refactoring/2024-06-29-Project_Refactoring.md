@@ -2,7 +2,7 @@
 title: "WeatherFit 및 NTAS 프로젝트 리팩토링 플랜"
 author: yeon
 date: 2024-06-29 20:26:00 +0900
-categories: [Private, Roadmap]
+categories: [ECT, Refactoring]
 tags: [Project, Refactoring, Plan]
 ---
 
