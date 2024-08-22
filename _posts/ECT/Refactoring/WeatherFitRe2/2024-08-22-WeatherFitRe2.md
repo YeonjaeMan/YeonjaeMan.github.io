@@ -11,11 +11,12 @@ tags: [Project, Refactoring, IntelliJ, Eclipse, Mybatis]
 
 하지만, 실행했더니 브라우저에 초기 화면은 잘나오지만 인텔리제이 콘솔에 오류가 났다.
 
-![인텔리제이 콘솔 오류](image.png)
+![인텔리제이 콘솔 오류](/assets/img/WeatherFitRe2/image.png)
 
 com/smhrd/database/mybatis-config.xml 경로의 리소스를 찾을 수 없다고 한다..
 
 - mybatis-config.xml
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
@@ -52,12 +53,12 @@ mybatis-config.xml 파일이 이클립스에서는 실행되던 것이 인텔리
 > 먼저 알아두어야 할 것은 mybatis-config.xml과 같은 설정 파일은 프로젝트에서 resource이다.
 
 - 이클립스 Dynamic Web Project 폴더 구조
-![이클립스 폴더 구조](image-1.png)
+![이클립스 폴더 구조](/assets/img/WeatherFitRe2/image-1.png)
 
 이미지를 보면 이클립스에서는 Java Resources 폴더 아래 src/main/java 폴더가 있고, 또 다른 src/main/java 폴더가 있다. 즉, src/main/java가 두 개가 있다.
 
 - 인텔리제이로 변환한 폴더 구조
-![인텔리제이 폴더 구조](image-2.png)
+![인텔리제이 폴더 구조](/assets/img/WeatherFitRe2/image-2.png)
 
 반면 인텔리제이에서 src/main/java 폴더가 한 개가 있다.
 > 생각해보니 인텔리제이의 프로젝트에는 항상 resources 폴더가 있었다!
@@ -74,15 +75,19 @@ mybatis-config.xml 파일이 이클립스에서는 실행되던 것이 인텔리
 나는 3번 방안으로 해결했는데, 비교적 간단하고 가장 맞는 방법인 것 같다.
 
 ## 과정
-![resources 폴더 생성](image-3.png)
+![resources 폴더 생성](/assets/img/WeatherFitRe2/image-3.png)
 먼저 main 폴더 하위에 resources 폴더를 만든다.
-> 인텔리제이가 자동으로 resources 폴더를 잡아주길래 놀랬다. 폴더 아이콘을 보면 일반 폴더랑 다른 것을 볼 수 있다. 이것은 뒤에서 설명하겠다.
 
-![원래 경로 폴더 생성](image-4.png)
+인텔리제이가 자동으로 resources 폴더를 잡아준다. 폴더 아이콘을 보면 일반 폴더랑 다른 것을 볼 수 있다.
+
+![](/assets/img/WeatherFitRe2/image-7.png)
+파일 > 프로젝트 구조 > 모듈로 들어가면 폴더의 종류를 확인할 수 있다. Mark as를 보면 인텔리제이의 폴더 종류가 있다. resources는 Resources 폴더이고, java 폴더는 Sources 폴더이다.
+
+![원래 경로 폴더 생성](/assets/img/WeatherFitRe2/image-4.png)
 resources 폴더 아래에 원래 mybatis-config.xml 파일이 있던 경로 그대로 하위 폴더(com.smhrd.database)를 생성한다.
 
-![Mapper, config.xml 파일 이동](image-5.png)
+![Mapper, config.xml 파일 이동](/assets/img/WeatherFitRe2/image-5.png)
 Mapper.xml 파일과 mybatis-config.xml 파일을 하위로 이동한다.
 
-![오류 해결](image-6.png)
+![오류 해결](/assets/img/WeatherFitRe2/image-6.png)
 실행해서 확인하면 더 이상 오류가 안나오는 것을 확인할 수 있다.
