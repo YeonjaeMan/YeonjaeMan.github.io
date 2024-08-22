@@ -76,6 +76,7 @@ mybatis-config.xml 파일이 이클립스에서는 실행되던 것이 인텔리
 
 ## 과정
 ![resources 폴더 생성](/assets/img/WeatherFitRe2/image-3.png)
+
 먼저 main 폴더 하위에 resources 폴더를 만든다.
 
 인텔리제이가 자동으로 resources 폴더를 잡아준다. 폴더 아이콘을 보면 일반 폴더랑 다른 것을 볼 수 있다.
