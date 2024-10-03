@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: YeonDoIt # the main title
 
-tagline: 9월 - 프로젝트 리팩토링 완료, 매주 - 블로그 글 1~2개 작성, 매일 - 코딩테스트 1문제 풀이 # it will display as the sub-title
+tagline: 한 계단씩 성장중.. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Junior Technology Blog
