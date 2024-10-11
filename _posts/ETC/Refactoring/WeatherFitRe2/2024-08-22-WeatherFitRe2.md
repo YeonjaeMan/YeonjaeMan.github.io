@@ -2,7 +2,7 @@
 title: "IntelliJ에서 Eclipse 프로젝트 DB 연결하기 (Mybatis 연결)"
 author: yeon
 date: 2024-08-22 02:10:00 +0900
-categories: [ECT, Refactoring]
+categories: [ETC, Refactoring]
 tags: [Project, Refactoring, IntelliJ, Eclipse, Mybatis]
 ---
 

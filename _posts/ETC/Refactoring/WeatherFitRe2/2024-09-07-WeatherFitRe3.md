@@ -2,7 +2,7 @@
 title: "WeatherFit 프로젝트 이미지 데이터 CRUD 리팩토링"
 author: yeon
 date: 2024-09-07 11:10:00 +0900
-categories: [ECT, Refactoring]
+categories: [ETC, Refactoring]
 tags: [Project, Refactoring, JSP, Servlet, Base64]
 ---
 
